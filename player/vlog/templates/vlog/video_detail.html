@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        {{ video.title }}
+    </div>
+    <video controls width=50% >
+        <source src={{ video.file.url }} type="video/mp4">
+    </video>
+    <div>
+        {{ video.uploaded }}
+    </div>
+    <div>
+        {{ video.description }}
+    </div>
+
+
+</body>
+</html>
